@@ -30,7 +30,10 @@
 .container2 {
   width: auto;
   height: 700px;
-  background-color: black;
+  background-image: url("../images/cover-image-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bodyBanner {
@@ -43,12 +46,56 @@
   height: 391px;
 }
 
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.toggle-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 800px;
+  transition: opacity 2s ease-in-out;
+}
+
+ /*.first-image {
+  background-image: url("../images/cover-image-nasa.jpg");
+  z-index: -3;
+  opacity: 0;
+}
+
+.second-image {
+  background-image: url("../images/cover-image-1.jpg");
+  z-index: -2;
+  opacity: 0;
+}
+
+.third-image {
+  background-image: url("../images/cover-image-2.jpg");
+  z-index: -1;
+  opacity: 0;
+}*/
+
+.first-image.show {
+  opacity: 1;
+}
+
+.second-image.show {
+  opacity: 1;
+}
+
+.third-image.show {
+  opacity: 1;
+}
+
 .btn-transparent {
-  background: transparent;
+  background: rgba(0,0,0,0);
   border-color: white;
 }
 
 button.btn-transparent:hover {
-  opacity: 0.5;
-  background-color: #feefef;
+  background: rgba(0,0,0,0.3);
 }

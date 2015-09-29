@@ -9,6 +9,7 @@ freelancer.config(function($stateProvider) {
       },
       'body': {
         templateUrl: 'partials/home.html',
+        controller:'ImageCtrl'
       },
     }
   })
