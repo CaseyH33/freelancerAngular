@@ -32,3 +32,23 @@
   height: 700px;
   background-color: black;
 }
+
+.bodyBanner {
+  color: white;
+  float: left;
+  margin-top: 2em;
+  margin-left: 3em;
+  padding: 3em;
+  width: 376px;
+  height: 391px;
+}
+
+.btn-transparent {
+  background: transparent;
+  border-color: white;
+}
+
+button.btn-transparent:hover {
+  opacity: 0.5;
+  background-color: #feefef;
+}
