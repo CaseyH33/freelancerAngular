@@ -16,7 +16,7 @@ freelancer.controller('ImageCtrl', function ImageCtrl($scope) {
   };
 
   //Document Ready
-  angular.element(document).ready(function() {
+  angular.element(document.body).ready(function() {
       cycleImage();
     });
 });

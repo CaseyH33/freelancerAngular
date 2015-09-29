@@ -93,5 +93,13 @@
 }
 
 button.btn-transparent:hover {
-  background: rgba(0,0,0,0.3);
+  background: rgba(255,255,255,0.2);
+}
+
+.banner-upsell {
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+  padding-top: 20em;
+  padding-left: 2.9em;
 }
