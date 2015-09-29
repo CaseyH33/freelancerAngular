@@ -1,4 +1,4 @@
-var freelancer = angular.module('Freelancer', ['ui.router']);
+var freelancer = angular.module('freelancer', ['ui.router']);
 
 freelancer.config(function($stateProvider) {
   $stateProvider.state('home', {
